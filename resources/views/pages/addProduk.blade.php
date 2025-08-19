@@ -1,5 +1,5 @@
 @extends('layouts.master')
 
 @section('content')
-    <h1>selamat datang di halaman kontak kami</h1>
+    <h1>halaman untuk tambah produk</h1>
 @endsection

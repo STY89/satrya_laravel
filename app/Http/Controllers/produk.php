@@ -1,10 +1,20 @@
-<?php
+// app/Models/Produk.php
+namespace App\Models;
 
-namespace App\Http\Controllers;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
 
-use Illuminate\Http\Request;
-
-class produk extends Controller
+class Produk extends Model
 {
-    //
+    use HasFactory;
+
+    protected $table = 'tb_produk'; 
+    protected $primaryKey = 'id_produk'; 
+
+    protected $fillable = [
+        'nama_produk',
+        'harga',
+        'deskripsi_produk',
+        'kategori_id',
+    ];
 }

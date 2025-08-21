@@ -12,6 +12,3 @@
     }
 </style>
 
-<div class="footer">
-    <span>Tugas satrya laravel</span>
-</div>
